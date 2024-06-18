@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { initHighlightServer } from "./init-highlight-server";
-import { trace } from '@opentelemetry/api'
 
 
 export default async function Home() {
