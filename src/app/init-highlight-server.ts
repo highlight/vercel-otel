@@ -4,7 +4,7 @@ import { context, trace } from '@opentelemetry/api';
 
 
 export async function initHighlightServer() {
-    const tracer = trace.getTracer('custom-next-server');
+    const tracer = trace.getTracer('vercel-otel-tracer');
     const span = tracer.startSpan('initHighlightServer');
 
     const sessionSecureID = cookies().get('sessionSecureID');

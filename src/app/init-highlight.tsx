@@ -6,8 +6,8 @@ import Cookies from "js-cookie";
 export function InitHighlight() {
   useEffect(() => {
     const initResult = H.init("lgxj7qdm", {
-      serviceName: "frontend-app",
-      debug: true,
+      serviceName: "vercel-otel-frontend",
+    //   debug: true,
       tracingOrigins: true,
       networkRecording: {
         enabled: true,
