@@ -12,5 +12,7 @@ export async function initHighlightServer() {
 
     activeSpan?.setAttribute('highlight.session_id', sessionSecureID?.value || '');
 
+    console.log('setting sessionSecureID', sessionSecureID?.value || 'missing')
+
     span.end();
 }

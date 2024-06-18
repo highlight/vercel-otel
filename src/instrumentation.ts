@@ -6,4 +6,5 @@ export function register() {
             ['highlight.project_id']: 'lgxj7qdm'
         }
     })
+    console.log('registerOTel called in instrumentation.ts')
 }
